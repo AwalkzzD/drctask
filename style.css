@@ -1,47 +1,256 @@
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+/*Montserrat Fonts*/
+@font-face {
+    font-family: 'montserratbold';
+    src: url('./webfontkit-20240116-054010/montserrat-bold-webfont.eot');
+    src: url('./webfontkit-20240116-054010/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./webfontkit-20240116-054010/montserrat-bold-webfont.woff2') format('woff2'),
+        url('./webfontkit-20240116-054010/montserrat-bold-webfont.woff') format('woff'),
+        url('./webfontkit-20240116-054010/montserrat-bold-webfont.ttf') format('truetype'),
+        url('./webfontkit-20240116-054010/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-body{
-    margin: 0;
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('./webfontkit-20240116-054010/montserrat-medium-webfont.eot');
+    src: url('./webfontkit-20240116-054010/montserrat-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./webfontkit-20240116-054010/montserrat-medium-webfont.woff2') format('woff2'),
+        url('./webfontkit-20240116-054010/montserrat-medium-webfont.woff') format('woff'),
+        url('./webfontkit-20240116-054010/montserrat-medium-webfont.ttf') format('truetype'),
+        url('./webfontkit-20240116-054010/montserrat-medium-webfont.svg#montserratmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
-.header{
-    background-color: transparent;
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('./webfontkit-20240116-054010/montserrat-regular-webfont.eot');
+    src: url('./webfontkit-20240116-054010/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./webfontkit-20240116-054010/montserrat-regular-webfont.woff2') format('woff2'),
+        url('./webfontkit-20240116-054010/montserrat-regular-webfont.woff') format('woff'),
+        url('./webfontkit-20240116-054010/montserrat-regular-webfont.ttf') format('truetype'),
+        url('./webfontkit-20240116-054010/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('./webfontkit-20240116-054010/montserrat-semibold-webfont.eot');
+    src: url('./webfontkit-20240116-054010/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.woff2') format('woff2'),
+        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.woff') format('woff'),
+        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.ttf') format('truetype'),
+        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*Poppins Font*/
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('./webfontkit-20240116-074730/poppins-bold-webfont.eot');
+    src: url('./webfontkit-20240116-074730/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-20240116-074730/poppins-bold-webfont.woff2') format('woff2'),
+         url('./webfontkit-20240116-074730/poppins-bold-webfont.woff') format('woff'),
+         url('./webfontkit-20240116-074730/poppins-bold-webfont.ttf') format('truetype'),
+         url('./webfontkit-20240116-074730/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('./webfontkit-20240116-074730/poppins-medium-webfont.eot');
+    src: url('./webfontkit-20240116-074730/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-20240116-074730/poppins-medium-webfont.woff2') format('woff2'),
+         url('./webfontkit-20240116-074730/poppins-medium-webfont.woff') format('woff'),
+         url('./webfontkit-20240116-074730/poppins-medium-webfont.ttf') format('truetype'),
+         url('./webfontkit-20240116-074730/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('./webfontkit-20240116-074730/poppins-regular-webfont.eot');
+    src: url('./webfontkit-20240116-074730/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-20240116-074730/poppins-regular-webfont.woff2') format('woff2'),
+         url('./webfontkit-20240116-074730/poppins-regular-webfont.woff') format('woff'),
+         url('./webfontkit-20240116-074730/poppins-regular-webfont.ttf') format('truetype'),
+         url('./webfontkit-20240116-074730/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('./webfontkit-20240116-074730/poppins-semibold-webfont.eot');
+    src: url('./webfontkit-20240116-074730/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-20240116-074730/poppins-semibold-webfont.woff2') format('woff2'),
+         url('./webfontkit-20240116-074730/poppins-semibold-webfont.woff') format('woff'),
+         url('./webfontkit-20240116-074730/poppins-semibold-webfont.ttf') format('truetype'),
+         url('./webfontkit-20240116-074730/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: "poppinsregular", sans-serif;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*Header*/
+header {
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 39px;
 }
-.headerContent{
+
+.container {
+    width: 1144px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 40px 14.38% 40px 14.18%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.header-row {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    width: 71.44%;
-    margin-left: 14.18%;
-    margin-right: 14.38%;
-    line-height: 0%;
 }
 
-ul {
-    list-style: none;
+.header-logo {
+    box-sizing: border-box;
+}
+
+.header-nav {
     display: flex;
-    padding: 0;
     flex-wrap: wrap;
-    justify-content:space-between;
-}
-.headerNavbar{
-	width: 40.81%;
 }
 
-.navUl{
-	margin-left: auto;
-	margin-right: 0;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    letter-spacing: 0.32px;
+    padding-left: 0;
 }
 
-#whyus{
-	color: #7449E3
-	
+.navLinks li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #293846;
+    font-size: 16px;
+    font-family: "poppinsmedium";
+}
+
+.navLinks li:nth-child(1) a {
+    font-family: "poppinsbold";
+    color: #7449E3;
+}
+
+main {
+    width: 100%;
+}
+
+
+/*Banner Image*/
+.bannerImage img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*Cards*/
+.cards {
+    margin-top: 80px;
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.card-content {
+    max-width: 31.4%;
+    margin: auto;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-content .title {
+    font-family: "montserratregular";
+    font-size: 22px;
+    color: #BF2228;
+}
+
+.card-content .sourceorg {
+    color: #565656;
+    font-family: "montserratregular";
+    font-size: 16px;
+}
+
+
+/*Title and Body*/
+
+h1 {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 0.8px;
+    font-size: 40px;
+    color: #293846;
+}
+
+.underline {
+    width: 50px;
+    border: 5px solid #FF3D44;
+    border-radius: 50px;
+    margin: 12px auto;
+}
+
+.textContainer {
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-top: 60px;
+    text-align: left;
+    letter-spacing: 0px;
+}
+
+.textContainer p {
+
+    font-family: poppinsregular;
+    font-size: 16px;
+    color: #676A6C;
+}
+
+.p1 {
+    font-family: "poppinsbold";
+    color: #293846;
+    font-size: 16px;
+}
+strong{
+    font-family: "poppinsbold";
+    color: #293846;
 }
