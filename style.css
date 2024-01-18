@@ -3,10 +3,10 @@
     font-family: 'montserratbold';
     src: url('./webfontkit-20240116-054010/montserrat-bold-webfont.eot');
     src: url('./webfontkit-20240116-054010/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./webfontkit-20240116-054010/montserrat-bold-webfont.woff2') format('woff2'),
-        url('./webfontkit-20240116-054010/montserrat-bold-webfont.woff') format('woff'),
-        url('./webfontkit-20240116-054010/montserrat-bold-webfont.ttf') format('truetype'),
-        url('./webfontkit-20240116-054010/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    url('./webfontkit-20240116-054010/montserrat-bold-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-054010/montserrat-bold-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-054010/montserrat-bold-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-054010/montserrat-bold-webfont.svg#montserratbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -16,10 +16,10 @@
     font-family: 'montserratmedium';
     src: url('./webfontkit-20240116-054010/montserrat-medium-webfont.eot');
     src: url('./webfontkit-20240116-054010/montserrat-medium-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./webfontkit-20240116-054010/montserrat-medium-webfont.woff2') format('woff2'),
-        url('./webfontkit-20240116-054010/montserrat-medium-webfont.woff') format('woff'),
-        url('./webfontkit-20240116-054010/montserrat-medium-webfont.ttf') format('truetype'),
-        url('./webfontkit-20240116-054010/montserrat-medium-webfont.svg#montserratmedium') format('svg');
+    url('./webfontkit-20240116-054010/montserrat-medium-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-054010/montserrat-medium-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-054010/montserrat-medium-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-054010/montserrat-medium-webfont.svg#montserratmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -29,10 +29,10 @@
     font-family: 'montserratregular';
     src: url('./webfontkit-20240116-054010/montserrat-regular-webfont.eot');
     src: url('./webfontkit-20240116-054010/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./webfontkit-20240116-054010/montserrat-regular-webfont.woff2') format('woff2'),
-        url('./webfontkit-20240116-054010/montserrat-regular-webfont.woff') format('woff'),
-        url('./webfontkit-20240116-054010/montserrat-regular-webfont.ttf') format('truetype'),
-        url('./webfontkit-20240116-054010/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    url('./webfontkit-20240116-054010/montserrat-regular-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-054010/montserrat-regular-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-054010/montserrat-regular-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-054010/montserrat-regular-webfont.svg#montserratregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -42,10 +42,10 @@
     font-family: 'montserratsemibold';
     src: url('./webfontkit-20240116-054010/montserrat-semibold-webfont.eot');
     src: url('./webfontkit-20240116-054010/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.woff2') format('woff2'),
-        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.woff') format('woff'),
-        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.ttf') format('truetype'),
-        url('./webfontkit-20240116-054010/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
+    url('./webfontkit-20240116-054010/montserrat-semibold-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-054010/montserrat-semibold-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-054010/montserrat-semibold-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-054010/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -56,23 +56,23 @@
     font-family: 'poppinsbold';
     src: url('./webfontkit-20240116-074730/poppins-bold-webfont.eot');
     src: url('./webfontkit-20240116-074730/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./webfontkit-20240116-074730/poppins-bold-webfont.woff2') format('woff2'),
-         url('./webfontkit-20240116-074730/poppins-bold-webfont.woff') format('woff'),
-         url('./webfontkit-20240116-074730/poppins-bold-webfont.ttf') format('truetype'),
-         url('./webfontkit-20240116-074730/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    url('./webfontkit-20240116-074730/poppins-bold-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-074730/poppins-bold-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-074730/poppins-bold-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-074730/poppins-bold-webfont.svg#poppinsbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'poppinsmedium';
+    font-family: 'poppinsmedium'; 
     src: url('./webfontkit-20240116-074730/poppins-medium-webfont.eot');
     src: url('./webfontkit-20240116-074730/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./webfontkit-20240116-074730/poppins-medium-webfont.woff2') format('woff2'),
-         url('./webfontkit-20240116-074730/poppins-medium-webfont.woff') format('woff'),
-         url('./webfontkit-20240116-074730/poppins-medium-webfont.ttf') format('truetype'),
-         url('./webfontkit-20240116-074730/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+    url('./webfontkit-20240116-074730/poppins-medium-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-074730/poppins-medium-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-074730/poppins-medium-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-074730/poppins-medium-webfont.svg#poppinsmedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -82,10 +82,10 @@
     font-family: 'poppinsregular';
     src: url('./webfontkit-20240116-074730/poppins-regular-webfont.eot');
     src: url('./webfontkit-20240116-074730/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./webfontkit-20240116-074730/poppins-regular-webfont.woff2') format('woff2'),
-         url('./webfontkit-20240116-074730/poppins-regular-webfont.woff') format('woff'),
-         url('./webfontkit-20240116-074730/poppins-regular-webfont.ttf') format('truetype'),
-         url('./webfontkit-20240116-074730/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    url('./webfontkit-20240116-074730/poppins-regular-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-074730/poppins-regular-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-074730/poppins-regular-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-074730/poppins-regular-webfont.svg#poppinsregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -95,13 +95,12 @@
     font-family: 'poppinssemibold';
     src: url('./webfontkit-20240116-074730/poppins-semibold-webfont.eot');
     src: url('./webfontkit-20240116-074730/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./webfontkit-20240116-074730/poppins-semibold-webfont.woff2') format('woff2'),
-         url('./webfontkit-20240116-074730/poppins-semibold-webfont.woff') format('woff'),
-         url('./webfontkit-20240116-074730/poppins-semibold-webfont.ttf') format('truetype'),
-         url('./webfontkit-20240116-074730/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    url('./webfontkit-20240116-074730/poppins-semibold-webfont.woff2') format('woff2'),
+    url('./webfontkit-20240116-074730/poppins-semibold-webfont.woff') format('woff'),
+    url('./webfontkit-20240116-074730/poppins-semibold-webfont.ttf') format('truetype'),
+    url('./webfontkit-20240116-074730/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
@@ -111,7 +110,7 @@ body {
 }
 
 /*Header*/
-header {
+header footer{
     width: 100%;
 }
 
@@ -131,6 +130,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin: 39px auto;
 }
 
 .header-logo {
@@ -175,9 +175,18 @@ main {
 
 
 /*Banner Image*/
-.bannerImage img {
+
+.images img {
+    position: relative;
     width: 100%;
-    object-fit: cover;
+}
+.bannerImage{
+    overflow: visible;
+    width: 100%;
+}
+.slider-hero{
+    overflow: visible;
+    width: 100%;
 }
 
 
@@ -239,10 +248,11 @@ h1 {
 }
 
 .textContainer p {
-
+    line-height: 1.6;
     font-family: poppinsregular;
     font-size: 16px;
     color: #676A6C;
+    margin: 30px auto;
 }
 
 .p1 {
@@ -251,6 +261,207 @@ h1 {
     font-size: 16px;
 }
 strong{
-    font-family: "poppinsbold";
+    font-family: "poppinsregular";
     color: #293846;
 }
+
+/*Bottom Section*/
+
+.bottom-full{
+    width: 100%;
+    background-color: #F4F6FB;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    justify-content: space-between;
+}
+.how-to-apply{
+    width: 48.78%;
+    box-sizing: border-box;
+}
+.how-to-apply h2{
+    font-family: "montserratbold";
+    font-size:36px;
+    color:#1F1F1F;
+}
+.step-heading{
+    margin-top: 50px;
+    color: #1F1F1F;
+    font-family: "montserratsemibold";
+    font-size: 18px;
+}
+.step-content{
+    margin-top: 21px;
+    color: #565656;
+    font-family: "montserratmedium";
+    font-size: 18px;
+    line-height: 1.6;
+}
+.explore-now-btn{
+    margin-top: 80px;
+    width: 64.87%;
+    text-align: center;
+    background-color: #7243EA;
+    border-radius: 10px;
+    /*line-height: 0;*/
+    
+}
+.btn-text{
+    font-family: "montserratmedium";
+    font-size: 22px;
+    color: white;
+    margin: 0;
+    padding: 22px 110px;
+}
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 48.78%;
+
+}
+.benefit-card{
+    width: 47.31%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #0000001A;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.benefit-card img{
+    margin-top: 51px;
+    margin-bottom: 40px;
+}
+.benefit-card strong{
+    color: #1F1F1F;
+    font-family: "montserratsemibold";
+    font-size:20px;
+}
+.benefit-card p{
+    color: #565656;
+    font-family: "montserratmedium";
+    font-size:14px;
+    margin-top: 10px;
+    margin-bottom: 51px;
+}
+
+
+/*Footer*/
+
+footer{
+    margin-top: 80px;
+    background-color: #7243EA;
+}
+
+.footer-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer-links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-contactus{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navLinksFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    letter-spacing: 0.32px;
+    /*padding-left: 0;*/
+    padding: 0;
+    margin: 0;
+}
+.contactLinksFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    letter-spacing: 0.32px;
+    padding-left: 0;
+}
+
+.navLinksFooter li{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.contactLinksFooter li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navLinksFooter li a{
+    text-decoration: none;
+    color: #F4F6FC;
+    font-size: 16px;  
+    letter-spacing: 0.32px;
+    font-family: "poppinsregular";
+}
+
+.navLinksFooter li:nth-child(1) {
+    padding-left: 0;
+}
+.contactLinksFooter li:nth-child(5) {
+    padding-right: 0;
+}
+
+.underlineFooter {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F4F6FC;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.2;
+    margin-top: 30px;
+}
+.copyright{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 0.64px; 
+    font-family: "poppinsregular";
+    font-size: 16px;
+    color: #F4F6FC;
+    text-align: center;
+}
+
+.slick-arrow{ 
+    z-index:2!important;
+    width:60px!important;
+    height:60px!important;
+}
+
+.slick-arrow:before{
+    content:""!important;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slick-next:before{
+    background: url(image/arrow_ic-1.png)!important;
+    background-size: contain!important;
+    opacity: 50%;
+}
+
+.slick-prev:before{
+    background: url("image/arrow_ic.png")!important;
+    background-size: contain!important;
+    opacity: 50%;
+}
+

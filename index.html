@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
     <header>
@@ -30,9 +34,21 @@
         </div>
     </header>
     <main>
-        <section class="bannerImage">
-            <img src="image/Banner.png" alt="Banner">
-        </section>
+        <div class="bannerImage">
+            <div class="slider-hero">
+                <div class="images">
+                    <img src="image/Banner.png" alt="Banner">    
+                </div>
+                <div class="images">
+                    <img src="image/Banner.png" alt="Banner">    
+                </div>
+                <div class="images">
+                    <img src="image/Banner.png" alt="Banner">    
+                </div>    
+            </div>                    
+        </div>
+        
+
 
         <div class="container">
             <div class="cards">
@@ -103,7 +119,111 @@
             </div>
         </div>
 
+        <!-- Footer -->
+        <div class="bottom-full">
+            <div class="container">
+                <div class="bottom">
+                    <div class="how-to-apply">
+                        <h2>How to Apply?</h2>
+                        <p class="step-heading">Step 1 - Signup</p>
+                        <p class="step-content">
+                            Sign up or Register for CUCET with basic details (Name, Email ID, Mobile No., State, Gender and Password). Your Email ID will act as your Username for the portal while the password will be set by you upon registration.<br><br>
 
+                            On successful registration, you will receive the confirmation message on your registered contact number and Email. Use the Username and Password to Login to your CUCET Account.
+                        </p>
+
+                        <div class="explore-now-btn">
+                            <p class="btn-text">Explore Now</p>
+                        </div>
+                    </div>
+
+                    <div class="benefits">
+                        <div class="benefit-card">
+                            <img src="image/Flexible Classes1.png"><br>
+                            <strong>Flexible Classes</strong>
+                            <p>You pick the schedule.</p>
+                        </div>
+
+                        <div class="benefit-card">
+                            <img src="image/Offline Mode.png"><br>
+                            <strong>Offline Mode</strong>
+                            <p>Download Classes.</p>
+                        </div>
+
+                        <div class="benefit-card">
+                            <img src="image/Educator Help.png"><br>
+                            <strong>Educator Help</strong>
+                            <p>Always get answers</p>
+                        </div>
+
+                        <div class="benefit-card">
+                            <img src="image/Flexible Classes.png"><br>
+                            <strong>Flexible Classes</strong>
+                            <p>You pick the schedule.</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            
+        </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <ul class="navLinksFooter">
+                        <li><a href="#">Why Us</a></li>
+                        <li><a href="/technologies">Technologies</a></li>
+                        <li><a href="/bmodel">Business Model</a></li>
+                        <li><a href="/process">Process</a></li>
+                        <li><a href="/faqs">FAQs</a></li>
+                    </div>
+                    <div class="footer-contactus">
+                        <ul class="contactLinksFooter">
+                            <li><img src="image/fb.png"></li>
+                            <li><img src="image/youtube.png"></li>
+                            <li><img src="image/behance.png"></li>
+                            <li><img src="image/dribbble.png"></li>
+                            <li><img src="image/insta.png"></li>
+                        <!-- <li><a href="/insights">Home</a></li>
+                        <li><a href="/insights">About</a></li>
+                        <li><a href="/insights">hts</a></li> -->
+                    </ul>        
+                </div>
+            </div>
+            <div class="underlineFooter"></div>
+            <div class="copyright">Copyright © 2021, EZIHIRE. ALL RIGHTS RESERVED</div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider-hero').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                arrows: true,
+                swipe: true,
+                // nextArrow: '<span class="container"><img url="image/arrow_ic-1.png"></img></span>',
+                // prevArrow: '<span class="container"><img url="image/arrow_ic.png"></img></span>',
+            });
+
+            var left_offset = $(".container").offset().left;
+
+            $(".slick-prev").css("left", left_offset+"px");
+            $(".slick-next").css("right", left_offset+"px");
+        });
+
+        $(window).resize(function(){
+            var left_offset = $(".container").offset().left;
+
+            $(".slick-prev").css("left", left_offset+"px");
+            $(".slick-next").css("right", left_offset+"px");
+        });
+    </script>
 </body>
 </html>
